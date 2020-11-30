@@ -1,30 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tinker
 
-## Getting Started
+Tinker is a web application that allows user to share ideas.
+To view ideas
 
-First, run the development server:
+The user is able to create an account.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Required Fields:
+	• Username
+	• Profile Picture (optional)
+	• Apprenticeship
+		○ Developer
+		○ Designer
+		○ Jack of All Trades
+		○ Tinker
+	• Email
+	• Password
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After the account has been created, the user can create and Idea.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+When creating and idea, the user HAS to add a:
+	• Title
+	• Description
+	• Looking for Help or Free to Use
 
-## Learn More
+Optionally, they can add tags to aid in the search
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+When an idea is displayed the user can :
+	• like an idea
+	• Request to join team
+	• Click to view idea
